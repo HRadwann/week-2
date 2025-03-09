@@ -1,0 +1,52 @@
+/* assig 1 */
+/* Any Element With Class Title */
+.title {}
+
+/* Any Element With id nav */
+#nav {}
+
+/* Any Element named div */
+div {}
+
+/* Any Element named h2 */
+h2 {}
+
+/* assig 5 */
+
+/* Valid  */
+._user-name {}
+
+/* Valid  */
+.-user-name {}
+
+/* not Valid  */
+.1user-name {}
+
+/* not Valid  */
+.@user-name {}
+
+/* not Valid  */
+.user@name {}
+
+/* Valid  */
+._user10name {}
+
+/* Valid  */
+.u {}
+
+/* assig 6 */
+
+/* bad */
+.USERNAME {}
+
+/* good */
+.UserName {}
+
+/* good */
+.user-name {}
+
+/* good */
+.userName {}
+
+/* bad */
+.usernameprofile {}
