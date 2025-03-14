@@ -1,0 +1,67 @@
+.assig-1 {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.assig-1 p {
+    border: inherit;
+    padding: inherit;
+    margin: inherit;
+    text-align: center;
+    background-color: #ddd;
+}
+
+
+
+.Open-Sans {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Cairo {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Jomhuria {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+html {
+    font-size: 20px;
+}
+
+.one {
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.two {
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.three {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
