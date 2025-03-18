@@ -1,0 +1,43 @@
+.assin-2 {
+    width: 400px;
+    margin: 50px auto;
+    border: 2px solid;
+    border-color: red blue;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.assin-2 span {
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+.top-left {
+    background-color: blue;
+    border-right: red solid 1px;
+    top: -15px;
+    left: -15px;
+}
+
+.bottom-left {
+    background-color: blue;
+    border-right: red solid 1px;
+    bottom: -15px;
+    left: -15px;
+}
+
+.top-right {
+    background-color: blue;
+    border-left: red solid 1px;
+    top: -15px;
+    right: -15px;
+}
+
+.bottom-right {
+    background-color: blue;
+    border-left: red solid 1px;
+    bottom: -15px;
+    right: -15px;
+}

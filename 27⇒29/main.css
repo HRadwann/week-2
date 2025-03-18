@@ -1,0 +1,61 @@
+.assin-1 {
+    width: 800px;
+    background-color: #eee;
+    margin: 20 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assin-1 div {
+    background-color: #ddd;
+    padding: 20px 0;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.full {
+    width: calc(100% - 30px);
+}
+
+.three {
+    width: calc((100% - 60px)/3);
+}
+
+.two {
+    width: calc((100% - 45px)/2);
+
+}
+
+.four {
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15PX;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.assin-2 div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3;
+    color: black;
+}
+
+.assin-2 .one {
+    background-color: rgb(179 179 179/ 0.1);
+}
+
+.assin-2 .two {
+    opacity: 0.1;
+}
