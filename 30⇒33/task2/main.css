@@ -1,8 +1,8 @@
 .assin-2 {
     width: 400px;
     margin: 50px auto;
-    border: 2px solid;
-    border-color: red blue;
+    border: 3px solid;
+    border-color: red #2196f3;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
@@ -15,29 +15,117 @@
 }
 
 .top-left {
-    background-color: blue;
-    border-right: red solid 1px;
+    background-color: #2196f3;
+    border-right: red solid 2px;
     top: -15px;
     left: -15px;
 }
 
 .bottom-left {
-    background-color: blue;
-    border-right: red solid 1px;
+    background-color: #2196f3;
+    border-right: red solid 2px;
     bottom: -15px;
     left: -15px;
 }
 
 .top-right {
-    background-color: blue;
-    border-left: red solid 1px;
+    background-color: #2196f3;
+    border-left: red solid 2px;
     top: -15px;
     right: -15px;
 }
 
 .bottom-right {
-    background-color: blue;
-    border-left: red solid 1px;
+    background-color: #2196f3;
+    border-left: red solid 2px;
     bottom: -15px;
     right: -15px;
+}
+
+.assin-3 {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.html,
+.css,
+.js {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.html ol,
+.css ol {
+    margin: 10px;
+    padding: 10px;
+}
+
+.html ol li,
+.css ol li {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.css ol {
+    list-style-type: upper-roman;
+}
+
+.js ul {
+    padding-left: 0;
+}
+
+.js ul li {
+    margin: 10px 0;
+    background-color: white;
+    padding: 5px;
+    list-style-position: inside;
+}
+
+table {
+    width: 700px;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 5px solid #009688;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table thead td {
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 70px;
+}
+
+table tbody td {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.view {
+    background-color: #03a9f4;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.del {
+    background-color: #e91e63;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
 }
